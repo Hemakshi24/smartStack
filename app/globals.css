@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 210 40% 98%;
+  --foreground: 222 47% 11%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+  --primary: 187 92% 42%;
+  --primary-foreground: 222 47% 8%;
+  --secondary: 220 14% 96%;
+  --secondary-foreground: 222 47% 11%;
+  --muted: 220 14% 94%;
+  --muted-foreground: 215 16% 42%;
+  --accent: 255 92% 68%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 220 13% 88%;
+  --input: 220 13% 88%;
+  --ring: 187 92% 42%;
+}
+
+.dark {
+  --background: 225 45% 5%;
+  --foreground: 210 40% 98%;
+  --card: 224 42% 8%;
+  --card-foreground: 210 40% 98%;
+  --popover: 224 42% 7%;
+  --popover-foreground: 210 40% 98%;
+  --primary: 187 92% 52%;
+  --primary-foreground: 222 47% 8%;
+  --secondary: 222 33% 12%;
+  --secondary-foreground: 210 40% 98%;
+  --muted: 223 28% 14%;
+  --muted-foreground: 215 18% 70%;
+  --accent: 255 92% 74%;
+  --accent-foreground: 222 47% 8%;
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 224 24% 18%;
+  --input: 224 24% 18%;
+  --ring: 187 92% 52%;
+}
+
+* {
+  @apply border-border;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-foreground antialiased;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background:
+    radial-gradient(circle at 12% 16%, rgba(34, 211, 238, .18), transparent 28%),
+    radial-gradient(circle at 80% 2%, rgba(167, 139, 250, .2), transparent 30%),
+    linear-gradient(180deg, hsl(var(--background)), hsl(var(--background)));
+}
+
+.dark body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: linear-gradient(to bottom, black, transparent 72%);
+}
+
+::selection {
+  background: hsl(var(--primary) / .35);
+}
+
+.glass {
+  @apply border border-white/10 bg-white/70 shadow-soft backdrop-blur-2xl dark:bg-white/[.055];
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.code-scrollbar::-webkit-scrollbar {
+  height: 8px;
+}
+
+.code-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: hsl(var(--muted-foreground) / .35);
+}

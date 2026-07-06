@@ -1,0 +1,52 @@
+declare module "lucide-react" {
+  import type { ComponentType, SVGProps } from "react";
+
+  export type LucideIcon = ComponentType<SVGProps<SVGSVGElement>>;
+
+  export const ArrowRight: LucideIcon;
+  export const BookOpen: LucideIcon;
+  export const Bot: LucideIcon;
+  export const Braces: LucideIcon;
+  export const Bookmark: LucideIcon;
+  export const CalendarDays: LucideIcon;
+  export const Check: LucideIcon;
+  export const CheckCircle2: LucideIcon;
+  export const Circle: LucideIcon;
+  export const Clock: LucideIcon;
+  export const Cloud: LucideIcon;
+  export const Code2: LucideIcon;
+  export const Command: LucideIcon;
+  export const Copy: LucideIcon;
+  export const CornerDownLeft: LucideIcon;
+  export const Cpu: LucideIcon;
+  export const Database: LucideIcon;
+  export const Download: LucideIcon;
+  export const ExternalLink: LucideIcon;
+  export const Filter: LucideIcon;
+  export const Flame: LucideIcon;
+  export const GitBranch: LucideIcon;
+  export const Github: LucideIcon;
+  export const Globe2: LucideIcon;
+  export const KeyRound: LucideIcon;
+  export const Laptop: LucideIcon;
+  export const Lightbulb: LucideIcon;
+  export const LockKeyhole: LucideIcon;
+  export const Menu: LucideIcon;
+  export const Moon: LucideIcon;
+  export const Network: LucideIcon;
+  export const Play: LucideIcon;
+  export const Printer: LucideIcon;
+  export const RefreshCw: LucideIcon;
+  export const Search: LucideIcon;
+  export const Share2: LucideIcon;
+  export const Shield: LucideIcon;
+  export const ShieldAlert: LucideIcon;
+  export const ShieldCheck: LucideIcon;
+  export const Sparkles: LucideIcon;
+  export const Sun: LucideIcon;
+  export const Terminal: LucideIcon;
+  export const Wand2: LucideIcon;
+  export const Wrench: LucideIcon;
+  export const X: LucideIcon;
+  export const Zap: LucideIcon;
+}

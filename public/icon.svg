@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="SmartStack icon">
+  <rect width="128" height="128" rx="24" fill="#050814"/>
+  <path d="M32 42h64L84 56H44L32 42Z" fill="#22d3ee"/>
+  <path d="M44 60h40L72 74H56L44 60Z" fill="#a78bfa"/>
+  <path d="M56 78h16l-8 10-8-10Z" fill="#f8fafc"/>
+  <circle cx="64" cy="64" r="50" fill="none" stroke="rgba(255,255,255,.14)" stroke-width="4"/>
+</svg>
