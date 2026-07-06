@@ -42,13 +42,13 @@ export function Footer() {
         ))}
       </div>
      <div className="mx-auto flex max-w-7xl flex-col gap-3 border-t border-border/70 px-4 py-5 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
-  <p>© 2026 SmartStack. All rights reserved.</p>
+  <p>© 2026 SmartStack by Hemakshi Saxena. All rights reserved.</p>
 
   <a
-    href="mailto:support@smartstack.tech"
+    href="mailto:hemakshisaxena@gmail.com"
     className="transition hover:text-foreground"
   >
-    support@smartstack.tech
+    hemakshisaxena@gmail.com
   </a>
 
   <span className="flex items-center gap-2">
