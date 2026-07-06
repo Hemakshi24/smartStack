@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "SmartStack is a premium developer platform with 500+ programming, cybersecurity, Linux, cloud, AI, and DevOps cheat sheets plus local developer utilities.",
   keywords: ["developer cheat sheets", "cybersecurity reference", "programming cheatsheets", "Linux commands", "Nmap", "JSON formatter", "SmartStack"],
   authors: [{ name: "SmartStack" }],
-  creator: "SmartStack",
+  creator: "Hemakshi Saxena",
   openGraph: {
     type: "website",
     url: "https://smartstack.dev",
