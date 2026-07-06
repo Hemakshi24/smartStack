@@ -43,6 +43,13 @@ export function Footer() {
       </div>
       <div className="mx-auto flex max-w-7xl flex-col gap-3 border-t border-border/70 px-4 py-5 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
           <p>© 2026 SmartStack. All rights reserved.</p>
+         <a href="mailto:hemakshisaxena@gmail.com" className="transition hover:text-foreground">
+    hemakshisaxena@gmail.com<div className="mx-auto flex max-w-7xl flex-col gap-3 border-t border-border/70 px-4 py-5 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
+  <span>© 2026 Hemakshi Saxena. All rights reserved.</span>
+
+  <a href="mailto:hemakshisaxena@gmail.com" className="transition hover:text-foreground">
+    hemakshisaxena@gmail.com
+  </a>
         <span className="flex items-center gap-2">
           <Github className="h-4 w-4" />
           Original design, no copied assets or code.
